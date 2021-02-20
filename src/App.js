@@ -44,7 +44,11 @@ class App extends Component {
             selected2={this.state.circle2}
             selected3={this.state.circle3}
             selected4={this.state.circle4}/>
-          <Circles/>
+          <Circles
+            selected={this.state.circle1}
+            selected2={this.state.circle2}
+            selected3={this.state.circle3}
+            selected4={this.state.circle4}/>
         </main>
       </div>
     );
